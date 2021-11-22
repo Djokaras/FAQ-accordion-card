@@ -20,27 +20,28 @@
 		/>
 
 		<title>Frontend Mentor | FAQ Accordion Card</title>
-
-		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-		<style>
-			.attribution {
-				font-size: 11px;
-				text-align: center;
-			}
-			.attribution a {
-				color: hsl(228, 45%, 44%);
-			}
-		</style>
 	</head>
 	<body>
 		<main class="container">
 			<img
-				src="images/illustration-woman-online-mobile.svg"
-				alt="illustration of woman in front of screen"
-				class="img-ilustration"
+				src="images/illustration-box-desktop.svg"
+				alt="box"
+				class="img-box"
 			/>
-			<h1>FAQ</h1>
+			<div class="img-container">
+				<img
+					class="img-ilustration--desktop"
+					src="./images/illustration-woman-online-desktop.svg"
+					alt="woman illustration"
+				/>
+				<img
+					class="img-ilustration--mobile"
+					src="./images/illustration-woman-online-mobile.svg"
+					alt="woman illustration"
+				/>
+			</div>
 			<section class="accordion">
+				<h1>FAQ</h1>
 				<article class="card">
 					<div class="top-part">
 						<p class="question">How many team members can I invite?</p>
